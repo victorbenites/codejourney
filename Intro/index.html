@@ -1,0 +1,90 @@
+<!DOCTYPE html> <!--esto le indica al explorador web que esto es del tipo html5-->  
+<html>
+<head>
+    <title>Mi primera web</title> <!-- esto es el título web y debe ser relacionado al contenido-->
+    <style>
+        table, th, td { border: 1px solid black;}
+    </style>
+</head>
+<body>
+    <table style="width: 500px  ;">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td> Hola beats</td>
+            <td> Gratis</td>
+        </tr>
+        <tr>
+            <td> caja china</td>
+            <td> 250</td>
+        </tr>
+        <tr>
+            <td> Carro australiano</td>
+            <td> 2500</td>
+        </tr>
+
+
+
+
+    </table>
+
+
+
+
+
+
+    <!--UL: Lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+    </ul>
+
+    <ol>
+        <li value="12">elemento 1</li>
+        <li> elemento 2</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman "> elemento 1</li>    
+                <li style="list-style-type:lower-greek"> elemento 2</li>   
+                <li style="list-style-type:lower-alpha"> elemento 3</li>   
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre_1"> Nombre</label> <!--esto para poder enfocar el cursos dentro del campo, cuando haga click en nombre-->
+        <input id="nombre_1" name="llave_1" placeholder="Aquí escribe el nombre"/> <!--podemos elegir TYPE: text, email, password, radio, submit, checkbox, file-->
+        <br>
+        <label for="apellido_1"> Apellido</label> <!--esto para poder enfocar el cursos dentro del campo, cuando haga click en nombre-->
+        <input id="apellido_1" name="llave_2" placeholder="Aquí escribe el apellido"/>
+        <br>
+        <br>
+        <textarea rows="10" cols="30" id="comentario" placeholder="Ingrese comentario aquí" name="comentario" >   </textarea>
+        <br>
+        <!-- <input type="submit" /> para que envìe toda lainfo al servidor, pero para que funcione el FORM tiene que tener ACTION-->
+        <button type="submit">SUBMIT    </button><!--aquì podemos elegir varios tipos, pero si queremos enviar SUBMIT. Mucho mas personalizable que input-->
+        <button type="button">SUBMIT    </button>
+
+       
+    </form> 
+    <h1>Mi primer heading    </h1> <!-- para indicar títulos, no cambiar fuentes -->
+    <h2>Mi segundo heading     </h2>
+    <h3>Mi tercer heading     </h3>
+    <h4>Mi cuarto heading     </h4>
+    <h5>Mi quinto heading     </h5>
+    <h6>Mi sexto heading     </h6> <!--solo existe hasta heading 6 de tamaño-->
+    <p> CHanchito feliz está muy feliz.</p> 
+    <p> CHanchito troiste está muy triste.</p>
+    <hr> <!--esto es para generar una línea separadora-->
+    <h2>CHANCHITO FELIPE</h2> 
+    <P>texto un <span style="color:blue"> esto es  para identificar una etiqueta SPAN</span> 
+        poco màs <br>complementario</P>
+    <a target="blank" href="https://www.google.com.pe">Ir a google</a> <br> <!--blank es para que abra una ventana nueva-->
+    <img src="imgs/coffee.jpg" width="400" height="300" />
+    
+</body>
+</html>
