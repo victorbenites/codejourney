@@ -2,3 +2,23 @@ h3 {
     border: 1px solid black;
     font-size: 50px;
   }
+
+ul {
+    font-size: 20px;
+}
+
+p {
+    font-size: 1rem;
+
+    border: 1px solid brown;
+    margin: 0;
+}
+
+#first {
+    margin-bottom: 64px;
+    background-color: lightblue;
+}
+
+#second {
+    margin-top: 32px;
+}
